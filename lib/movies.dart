@@ -1,5 +1,5 @@
 import 'dart:core';
-
+import 'dart:convert';
 class MoviesList {
   static String moviesJsonList = """
 [
@@ -125,4 +125,7 @@ class MoviesList {
     }
 ]
 """;
+
+
 }
+
